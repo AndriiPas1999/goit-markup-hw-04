@@ -160,7 +160,8 @@ header {
    letter-spacing: 0.02em;
    color: var(--primary-text-color);
 
-   margin-left: auto;
+   display: flex;
+   align-items: center;
 }
 
 .contacts-item :hover,
@@ -182,6 +183,7 @@ header {
    margin-right: 10px;
    align-items: center;
    fill: currentColor;
+   vertical-align: middle;
 }
 
 
