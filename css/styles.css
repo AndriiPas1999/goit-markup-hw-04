@@ -181,9 +181,7 @@ header {
 
 .header-icon {
    margin-right: 10px;
-   align-items: center;
    fill: currentColor;
-   vertical-align: middle;
 }
 
 
@@ -240,11 +238,6 @@ header {
    font-size: 16px;
    line-height: 1.8;
    letter-spacing: 0.06em;
-   /* 
-    transition-property: background-color;
-    transition-duration: 1s;
-    transition-timing-function: linear;
-    transition-delay: 1s; */
 }
 
 .hero-button:hover,
@@ -281,13 +274,11 @@ header {
 
 .we-do-item:nth-child(-n+2) {
    margin-right: 30px;
-
 }
 
 /* "Our advantages" styles */
 .advantages-title {
    color: var(--title-text-color);
-
    font-weight: 700;
    font-size: 14px;
    line-height: 1.2;
